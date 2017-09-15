@@ -1,0 +1,601 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2012.5.17)  18 MAY 2012 22:27
+entering extended mode
+**C:/Users/JayK/Desktop/final/seminar*pdf/final.tex
+("C:/Users/JayK/Desktop/final/seminar pdf/final.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+("C:\Users\JayK\Desktop\final\seminar pdf\final.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen107
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen108
+\MPnumerator=\count93
+\everyMPtoPDFconversion=\toks16
+) <./logo.png, id=1, 106.14656pt x 131.74219pt>
+File: ./logo.png Graphic file (type png)
+ <use ./logo.png>
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \\
+       
+? r
+OK, entering \nonstopmode...
+! Missing } inserted.
+<inserted text> 
+                }
+l.48 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[1
+
+{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map} <C:/Users/JayK/Desktop/fin
+al/seminar pdf/logo.png>]
+File: ./logo.png Graphic file (type png)
+ <use ./logo.png>
+Underfull \hbox (badness 10000) in paragraph at lines 67--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--85
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 88--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--102
+
+ []
+
+[3
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 \\\hspace
+               *{0.5in}Ubiquity means "Anytime, anywhere". It is total mobil...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+] ("C:\Users\JayK\Desktop\final\seminar pdf\final.toc"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [2
+
+])
+\tf@toc=\write3
+ [3]
+("C:\Users\JayK\Desktop\final\seminar pdf\final.lof")
+\tf@lof=\write4
+ [4
+
+]
+Chapter 1.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 \hspace
+             *{0.5in}Ubiquity means "Anytime, anywhere". It is total mobilit...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 \hspace
+             *{0.5in}Computers in the workplace can be as effortless, and ub...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+] [2]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 \hspace
+             *{0.5in}Ubiquitous networking is the actual implementation of t...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 {\bf \\N
+              OTE:} Japan is about to embark on the implementation of an amb...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3]
+Chapter 2.
+
+! LaTeX Error: Environment centre undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \begin{centre}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<fig1.png, id=41, 359.84438pt x 167.12437pt>
+File: fig1.png Graphic file (type png)
+ <use fig1.png>
+
+! LaTeX Error: \begin{figure} on input line 146 ended by \end{centre}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 \end{centre}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4
+
+] [5 <C:/Users/JayK/Desktop/final/seminar pdf/fig1.png (PNG copy)>] [6]
+Chapter 3.
+
+! LaTeX Error: Environment centre undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 \begin{centre}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<fig2.png, id=52, 495.35063pt x 413.29407pt>
+File: fig2.png Graphic file (type png)
+ <use fig2.png>
+
+! LaTeX Error: \begin{figure} on input line 161 ended by \end{centre}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 \end{centre}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--172
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fig3.png, id=53, 484.81125pt x 236.38312pt>
+File: fig3.png Graphic file (type png)
+ <use fig3.png> [7
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fig4.png, id=57, 374.90062pt x 427.5975pt>
+File: fig4.png Graphic file (type png)
+ <use fig4.png> [8 <C:/Users/JayK/Desktop/final/seminar pdf/fig2.png (PNG copy)
+>] [9 <C:/Users/JayK/Desktop/final/seminar pdf/fig3.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] [11 <C:/Users/JayK/Desktop/final/seminar pdf/fig4.png (PNG copy)>]
+Chapter 4.
+! Misplaced alignment tab character &.
+l.195 ... computers. A group of researchers at AT&
+                                                  T Laboratories Cambridge a...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.199 ...d locate both people and devices. The AT&
+                                                  T researchers came up with...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.206 ...-square-foot building (929 m2) at the AT&
+                                                  T Labs in Cambridge. An ob...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<fig5.png, id=70, 164.86594pt x 153.57375pt>
+File: fig5.png Graphic file (type png)
+ <use fig5.png> [12
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13] [14 <C:/Users/JayK/Desktop/final/seminar pdf/fig5.png (PNG copy)>]
+[15] [16]
+Chapter 5.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \hspace
+             *{0.5in}Although the ubiquitous network concept should not be d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231 \hspace
+             *{0.5in}For this ubiquitous network concept for 2005,bandwidth ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+[17
+
+] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 \hspace
+             *{0.5in}Ubiquitous networks should be broadband, and at the sam...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[19]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.243 \hspace
+             *{0.5in}The IP protocol for this multi-modal network should nat...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[20] [21]
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
+
+ []
+
+[22
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 255--258
+
+ []
+
+[23] [24] [25]
+Chapter 7.
+[26
+
+] [27]
+Chapter 8.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[28
+
+]
+Chapter 9.
+[29
+
+] [30] [31]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[32]
+Chapter 10.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 \item
+            Masayoshi Ohashi,KDDI R&D Laboratories, "Ubiquitous Networks"
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.293 \item Masayoshi Ohashi,KDDI R&
+                                    D Laboratories, "Ubiquitous Networks"
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[33
+
+] ("C:\Users\JayK\Desktop\final\seminar pdf\final.aux") ) 
+Here is how much of TeX's memory you used:
+ 1020 strings out of 495285
+ 13228 string characters out of 3179830
+ 68017 words of memory out of 3000000
+ 4249 multiletter control sequences out of 15000+200000
+ 9455 words of font info for 33 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 25i,6n,19p,2304b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86
+)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/
+MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/Mi
+KTeX 2.8/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTe
+X 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
+2.8/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on final.pdf (40 pages, 273341 bytes).
+PDF statistics:
+ 160 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

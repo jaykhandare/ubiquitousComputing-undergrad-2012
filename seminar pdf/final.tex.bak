@@ -1,0 +1,287 @@
+\documentclass[12pt]{report}
+\setlength{\textwidth}{6.25in}
+\setlength{\textheight}{8in}
+\renewcommand{\baselinestretch}{1.3}
+\oddsidemargin 20pt
+\evensidemargin 20pt
+\topmargin 0pt
+%\usepackage {psfig}
+%\usepackage{pstricks}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{graphics}
+\begin{document}
+\thispagestyle{empty}
+\vspace{1.0in}
+\begin{center}
+{\Large \bf Ubiquitous Networking}\\
+\vspace{0.1in}
+{\bf A Seminar Report} \\
+\vspace{0.1in}
+{\it submitted in partial fulfillment of semester}\\
+{\it curriculum program}\\
+\vspace{0.2in}
+{\bf Bachelor of Technology}\\
+\vspace{0.2in}
+{\bf in}\\
+\vspace{0.2in}
+{\bf COMPUTER ENGINEERING}\\
+\vspace{0.2in}
+{\it by}\\
+\vspace{0.1in}
+{\bf Mr. Jayendra Khandare \\
+{\it Under the guidance of}\\
+\vspace{0.1in}
+{\large Prof. G. S. Mahamunkar}\\
+\vspace{0.1in}
+\begin{figure*}[h]
+%\centerline{\psfig{figure=figs/iitm.ps,width=1.6in,height=1.6in}}
+\centerline{\psfig{figure=./logo.png,width=1.19in,height=1.24in}}
+%\label{atcres}
+\end{figure*}
+{\small DEPARTMENT OF COMPUTER ENGINEERING \\
+{\bf DR. BABASAHEB AMBEDKAR TECHNOLOGICAL UNIVERSITY}\\
+{\small Lonere-402 103, Tal. Mangaon, Dist. Raigad (MS)}\\ {\bf INDIA}\\
+\\
+\vspace{0.1in}
+\small May, 2012}
+\end{center}
+\thispagestyle{empty}
+\chapter*{\vspace{0.2in}Certificate\markboth{Certificate}{Certificate}}
+\par
+%\hspace*{0.3in}
+This is to certify that the seminar report entitled \textbf{Ubiquitous Networking} submitted by \textbf{Mr. Jayendra Khandare (20090631)}, is approved for the partial fulfillment of the requirement for the award of the degree of Bachelor of Technology in Computer Engineering to the Dr. Babasaheb Ambedkar Technological University, Lonere, is a bonafide work carried on during academic year 2011-2012.\\
+\vspace{0.3in}
+\noindent
+\\
+\\
+\\
+\hspace*{0.3in} Prof. G. S. Mahamunkar \hspace{1.3in} Prof. Arwind Kiwelekar \\
+\hspace*{0.8in} Guide \hspace{2.7in} Head\\
+Dept. of Computer Engineering \hspace{0.7in} Dept. of Computer Engineering\\
+\\
+\\
+\\
+External Examiner(s)\\
+\hspace*{1.5in}1.\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_(Name:\hspace{2.0in})\\
+\\
+\hspace*{1.5in}2.\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_(Name:\hspace{2.0in})\\
+Place:Dr.Babasaheb Ambedkar Technological University, Lonere.\\
+\\
+Date: \_\_/\_\_/2012
+\thispagestyle{empty}
+
+\chapter*{Acknowledgements\markboth{Acknowledgements}{Acknowledgements}}
+%\hspace*{0.3in}
+This seminar report is a result of intense effort of many people whom I need to thank for making this a reality. I thus express my deep regards to all those who have offered their assistance and suggestions.\\
+\\
+%\vspace*{0.2in}
+With a deep sense of gratitude, I wish to express my sincere thanks to my highly esteemed guide \textbf{Prof. G. S. Mahamunkar}, for her expert guidance and constant encouragement throughout my work in bringing about this seminar right from its infant stages to its completion. Her supervision and guidance proved to be the most valuable to overcome all the hurdles in the fulfillment of this seminar.\\
+\\
+%\vspace*{0.2in}
+%\vspace*{0.2in}
+Finally, I would like to thank all whose direct and indirect support helped me in completing the seminar in time.\\
+\\
+\vspace*{0.2in}
+\vspace*{0.1in}\\
+\hspace*{3.0in}  Mr. Jayendra Khandare (20090631)\\
+\vspace{0.1in}\\
+\thispagestyle{empty}
+
+
+\chapter*{Abstract\markboth{Acknowledgements}{Acknowledgements}}
+\\\hspace*{0.5in}Ubiquity means "Anytime, anywhere". It is total mobility. One can use this ubiquity in technical aspects, say computing. Unlike PDA's, ubiquitous computing envisions a world of fully connected devices, with cheap wireless networks everywhere; unlike PDA's, it postulates that you need not carry anything with you, since information will be accessible everywhere. Unlike the intimate agent computer that responds to one's voice and is a personal friend and assistant, ubiquitous computing envisions computation primarily in the background where it may not even be noticed. Employees will be able to retrieve and send information easily from their cars, mobile devices, and homes as well as from their offices.
+\\\hspace*{0.5in}By means of this revolutionary vision, we can say that it is an intermediate state before fully applied augmented reality and the type of exotic networks available used in these days. In the seminar, we'll try to deal with the more advance techniques which will be needed for successful application of ubiquitous computing,i.e.networking concepts,hardware requirements and most of all the money(cost) that will be required for that purpose.
+\\\hspace*{0.5in}In recent time, Japan has been thinking to create an Ubiquity based 'e-Japan', the difficulties will be discussed in this seminar which are creating an obstacle for the Japanies... Also the concept is under research for proper utilisation of resources that will be available after installations of such networks. We will have a look at them.
+
+
+
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+
+
+
+\chapter{Introduction}
+\pagenumbering{arabic}
+
+\section{What is Ubiquity? }\\
+\hspace*{0.5in}Ubiquity means "Anytime, anywhere". It is total mobility. One can use this ubiquity in technical aspects, say computing. While concerning computing we have to consider networking area. With the help of ubiquity life is going to be very much easier than before and much more comfortable.
+We can say that concept of using ubiquity in the computing world, beyond the desktop is going to be a new paradigm in the Information Technology.
+
+\section{The power of ubiquitous computing }\\
+\hspace*{0.5in}Computers in the workplace can be as effortless, and ubiquitous, as that. Long-term the PC and workstation will wither because computing access will be everywhere: in the walls, on wrists, and in "scrap computers" (like scrap paper) lying about to be grabbed as needed. This is called "ubiquitous computing", or "ubicomp". Ubiquitous computing has as its goal the enhancing computer use by making many computers available throughout the physical environment, but making them effectively invisible to the user. A number of researchers around the world have worked in the ubiquitous computing framework. Their work had impacted all areas of computer science, including hardware components (e.g. chips), network protocols, interaction substrates (e.g. software for screens and pens), applications, privacy, and computational methods.
+\\\hspace*{0.5in}Ubiquitous computing is not virtual reality, it is not a Personal Digital Assistant (PDA) such as Apple's Newton, it is not a personal or intimate computer with agents doing your bidding. Unlike virtual reality, ubiquitous computing endeavors to integrate information displays into the everyday physical world. It considers the nuances of the real world to be wonderful, and aims only to augment them. Unlike PDA's, ubiquitous computing envisions a world of fully connected devices, with cheap wireless networks everywhere; unlike PDA's, it postulates that you need not carry anything with you, since information will be accessible everywhere. Unlike the intimate agent computer that responds to one's voice and is a personal friend and assistant, ubiquitous computing envisions computation primarily in the background where it may not even be noticed. Whereas the intimate computer does your bidding, the ubiquitous computer leaves you feeling as though you did it yourself. Because ubiquitous computing envisions hundreds of wireless computers in every office, its need for wireless bandwidth was prodigious.
+\\\hspace*{0.5in}For instance, in a not-very-large building with 300 other people. If each had 100 wireless devices in offices, each demanding 256kbits/sec, using 7.5 gigabits of aggregate bandwidth in a single building. A second challenge of the mobile infrastructure was handling mobility. Networking developed over the past twenty years with the assumption that a machine's name, and its network address, were unvarying. However, once a computer can move from network to network this assumption was false. Existing protocols such as TCP/IP and OSI were unprepared for to handle machine mobility without change. A number of committees and researchers worked on methods of augmenting or replacing existing protocols to handle mobility. Third challenge of the mobile infrastructure was window systems. Most window systems, such as those for the Macintosh and for DOS, were not able to open remote windows over a network. Even window systems designed for networking, such as X, had built into them assumptions about the mobility of people. The X window system protocol, for instance, made it very difficult to migrate the window of a running application from one screen to another, although this was just what a person traveling from their office to a meeting might want. 	 Ubiquitous computing, whereby Internet appliances automatically satisfy almost any need could improve the way companies conduct business.
+\\\hspace*{0.5in}Corporations could use it to automate their flow of information and dynamically adjust operations to fit the environment. "Today networking is not at all transparent," Ubiquitous networking will allow connectivity to corporate applications anywhere, anytime. Employees will be able to retrieve and send information easily from their cars, mobile devices, and homes as well as from their offices. Creating an architecture methodology provides the key to developing these new solutions.
+
+\section{ Ubiquitous Networking }\\
+\hspace*{0.5in}Ubiquitous networking is the actual implementation of the ubiquitous computing. The utilization of information technology by businesses had shifted from the era of mainframe to one of the client server systems in the second half of the 1980s.Then from mid-1990s onwards, the Web computing paradigm has been taking root against the backdrop of the rapid spread of the Internet. Nevertheless, it is unlikely that the IT paradigm, which had evolved through these stages, would leap in one step to the world of exotic networks, which rely on the full utilization of the wearable computers or paper computers. There is bound to be an interim IT paradigm before we reach exotic networks. Ubiquitous networks might be such an interim paradigm.
+\\Ubiquitous networks are an IT paradigm comprising :
+\begin{itemize}
+\item Network infrastructures featuring broadband, mobile and constant Internet access,
+\item Diverse information equipment that provides access to internet Protocol version 6(Ipv6), and
+\item Seamlessly linked interactive contents.
+\end{itemize}
+
+{\bf \\NOTE:} Japan is about to embark on the implementation of an ambitious e-Japan strategy, which aims to make it possible for the 10 million Japanese households to use broadband networks of 30-100Mbps b6y 2005. This is thought to be an attempt to create a new IT paradigm, and ubiquitous networks can become a strong candidate for this new IT paradigm.
+
+
+\chapter{The evolution of IT paradigm}
+
+\section{Early days}
+\hspace*{0.5in}In order to find a new direction for the new paradigm of the economy, it is necessary to find a new direction for the information technology. The first wave of the information technology revolution started with the explosive diffusion of the innovative MOSIAC browser in 1993. Information technology paradigm of each era strongly influences the growth and evolution of the information industry. In early days, the utilization of computers had been equivalent to the use of mainframe computer. The lengthy period when the information industry exclusively organized systems and operation around mainframe computers started to come to an end in the 1980s. Client-server system began to spread quickly during the early 1990s, and system that greatly reduced cost through combinations of workstations (WSs) and personal computers (PCs) rapidly replaced the systems then in use. The world of Internet began with the start of the commercial use of the Internet in 1991 and the explosive spread of MOSIAC browser software in 1993.Web technology continues to rewrite the computing paradigm.
+\begin{figure}[h]
+\begin{centre}
+\centerline{\psfig{figure=fig1.png,width=4.0in,height=5.0in}}
+\caption{Change in IT paradigm}
+\end{centre}
+\end{figure}
+
+\section{Web Computing}
+\hspace*{0.5in}The web-computing paradigm is currently spreading by taking a form that can link PCs, WSs and even mainframe computers using an Ipv4 network. Because the various systems now in place throughout the world can easily ride the IP protocol, users have greatly begun connecting them to IP networks. These IP networks are spreading to every corner of the world, every corner of our society and even every corner of our lives at a staggering speed. With slight time lags and differences arising from the digital divide, this phenomenon is quickly spreading throughout the world and into various facets of social system. As we continue for the foreseeable future to use the Web computing paradigm that forms the core of the present Internet? Or will the shift to the next paradigm be just as swift as the speed at which today's PC-centered Web computing has spread? The future evolution of information technology depends on advanced research laboratories where research continues. It is impossible today to even imagine that researchers can create paper computers and wearable computers that will soon be able to use in our daily lives. But researchers are already working on such devices for the future computing. These devices will certainly be connected to networks. We may call this type of IT paradigm exotic networks.
+
+
+\chapter {Ubiquitous Networking}
+
+\section{Traditional Networks}
+\hspace*{0.5in}Since Internet has become popular, it has been used vastly. Traditional networks including LANs in the small organizations, following different topologies as well as architectures like client-server have got connected to the Internet. Use of Internet in the desktop computers is increasing rapidly. Very soon it is going to occupy the whole world, which is not connected yet. This is the current scenario of the networking. But the experts from the industry have tremendous ideas about the future world of the networking.
+ \begin{figure}[h]
+\begin{centre}
+\centerline{\psfig{figure=fig2.png,width=4.0in,height=5.0in}}
+\caption{Web Computing (traditional networks)}
+\end{centre}
+\end{figure}
+\\
+\\
+\\
+\\
+\\
+
+\section{Exotic Networks}
+\hspace*{0.5in}Present information technology is at the stage in which it enhances the PC-centered web-computing world created on the Internet. An extension of this line of the development is the world of Exotic networks. It is difficult to imagine, however, that users will move in one leap from web computing to a world of exotic networks, where everything becomes an object of computing and is connected to networks.
+\begin{figure}[h]
+\begin{center}
+\centerline{\psfig{figure=fig3.png,width=5in,height=2in}}
+\caption{Exotic Networks}
+\end{center}
+\end{figure}
+\\It is expected that there will be an intermediate IT evolution paradigm between these two worlds. That stage is ubiquitous network paradigm.
+
+\section{Intermediate stage}
+\hspace*{0.5in}In the Ubiquitous-networking paradigm, users do not rely on devices such as paper or wearable computers or exotic networks that do not yet exist. Instead the desktop PCs or mobile PCs, they will use existing information devices that are not yet fully connected to the internet, such as cellular telephones, PDAs (Personal Digital Assistants), video game consoles, set top boxes, digital television, multimedia kiosks, car navigation devices and forthcoming information appliances. All of these devices will be connected to much broader band (chapter5) networks than the present fixed telephone lines of today's Internet. At the same time the network must have multi-modal (chapter6) access to the internet, perhaps by Ipv6 protocol, from not only fixed telephone lines but also by mobile phone, xDSL, CATV, Fixed wireless access and, of course, fiber optic network. Network will enable users to watch movies and listen to music as well as create and transmit their own works.
+\\\hspace*{0.5in}The IT paradigm under such an environment will be ubiquitous networks. The word "Ubiquitous" comes from the Latin word meaning "existing everywhere simultaneously." Ubiquitous networks enable consumers to access the Internet from anywhere and at anytime. When we use this word, we are referring to the ability of individuals to take advantage of high quality digital media from any location, and to obtain greater power of expression. Users will be able not only to receive large volume digital contents such as music, images and even motion pictures on demand and without trouble, but also to edit and send long speeches, music and motion pictures they create on their own. Adding the constant access function to this will fundamentally change our existing concepts of Internet use. It will also change how we use telecommunications and broadcasting, how business operates, as well as styles of environment. The ubiquitous networks we discuss here are a concept for the IT paradigm that should be executed in the proposed form by around 2005.
+\begin{figure}[h]
+\begin{center}
+\centerline{\psfig{figure=fig4.png,width=4in,height=6in}}
+\caption{Ubiquitous Networks}
+\end{center}
+\end{figure}
+
+
+\chapter{How Ubiquitous Networking Will Work ? }
+\hspace*{0.5in}Mobile computing devices have changed the way we look at computing. Laptops and personal digital assistants (PDAs) have unchained us from our desktop computers. A group of researchers at AT&T Laboratories Cambridge are preparing to put a new spin on mobile computing. In addition to taking the hardware with you, they are designing a ubiquitous networking system that allows your program applications to follow you wherever you go. By using a small radio transmitter and a building full of special sensors, your desktop can be anywhere you are, not just at your workstation. At the press of a button, the computer closest to you in any room becomes your computer for as long as you need it.
+\\\hspace*{0.5in}In addition to computers, the Cambridge researchers have designed the system to work for other devices, including phones and digital cameras. As we move closer to intelligent computers, they may begin to follow our every move. In this we will look at the parts of such a system and how they allow our data and information to move with us. (Following is just a single way that could be used to implement the Ubiquitous Networking.)
+
+\section{Send Out the Bat Signal}
+\hspace*{0.5in}In order for a computer program to track its user, researchers had to develop a system that could locate both people and devices. The AT&T researchers came up with the ultrasonic location system. This location
+tracking system has three basic parts:\\
+\hspace*{0.5in}{\bf Bats} - small ultrasonic transmitters worn by users\\
+\hspace*{0.5in}{\bf Receivers} - ultrasonic signal detectors embedded in ceiling\\
+\hspace*{0.5in}{\bf Central controller} - coordinates the bats and receiver chains\\
+Users within the system will wear a bat, a small device that transmits a 48-bit code to the receivers in the ceiling. Bats also have an imbedded transmitter, which allows it to communicate with the central controller using a bi-directional 433-MHz radio link.
+Bats are 3 inches long (7.5 cm) by 1.4 inches wide (3.5 cm) by .6 inches thick (1.5 cm), or about the size of a pager. These small devices are powered by a single 3.6-volt lithium thionyl chloride battery, which has a lifetime of six months. The devices also contain two buttons, two light-emitting diodes (LEDs) and a piezoelectric speaker, allowing them to be used as ubiquitous input and output devices, and a voltage monitor to check the battery status.
+A bat will transmit an ultrasonic signal, which will be detected by receivers located in the ceiling approximately feet (1.2 m) apart in a square grid. There are about 720 of these receivers in the 10,000-square-foot building (929 m2) at the AT&T Labs in Cambridge. An object's location is found using trilateration, a position-finding technique that measures the objects distance in relation to three reference points.
+\begin{figure}[h]
+\begin{center}
+\centerline{\psfig{figure=fig5.png,width=4in,height=3.5in}}
+\caption{Trilateration Method}
+\end{center}
+\end{figure}
+\\
+\hspace*{0.5in}If a bat needs to be located, the central controller sends the bat's ID over a radio link to the bat. The bat will detect its ID and send out an ultrasonic pulse. The central controller measures the time it took for that pulse to reach the receiver. Since the speed of sound through air is known, the position of the bat is calculated by measuring the speed at which the ultrasonic pulse reached three other sensors. This system provides a location accuracy of 1.18 inches (3 cm) throughout the Cambridge building.
+By finding the position of two or more bats, the system can determine the orientation of a bat. The central controller can also determine which way a person is facing by analyzing the pattern of receivers that detected the ultrasonic signal and the strength of the signal.
+
+\section{In the Zone}
+\hspace*{0.5in}With an ultrasonic location system in place, it's possible for any device fitted with a bat to become yours at the push of a button. Let's say the user leaves his workstation and enters another room. There's a phone in this room sitting on an unoccupied desk. That phone is now the user's phone, and all of the user's phone calls are immediately redirected to that phone. If there is already someone using that phone, the central controller recognizes that and the person using the phone maintains possession of the phone.
+\\\hspace*{0.5in}The central controller creates a zone around every person and object within the location system. For example, if several cameras are place in a room for video conferences, the location system would activate the appropriate camera so that the user could be seen and move freely around the room. When all the sensors and bats are in place, they are included in a virtual map of the building. The computer uses a spatial monitor to detect if a user's zone overlaps with the zone of a device. If the zones do overlap, then the user can become the temporary owner of the device. If the ultrasonic location system is working with virtual network computing (VNC) software, there are some additional capabilities. Computer desktops can be created that actually follow their owners anywhere with in the system. Just by approaching any computer display in the building, the bat can enable the VNC desktop to appear on that display. This is handy if you want to leave your computer to show a coworker what you've been working on. Your desktop is simply teleported from your computer to your co-worker's computer.
+
+\section{Information Hoppers and Smart Posters}
+\hspace*{0.5in}Once these zones are set up, computers on the network will have some interesting capabilities. The system will help us store and retrieve data in an "information hopper." This is a timeline of information that keeps track of when data is created. The hopper knows who created it, where they were and whom they were with. Think of the hopper as a ubiquitous filing clerk. It will change how we think of our computer filing systems. By using a digital camera that is connected to the network, a user's photographs are immediately stored in his or her timeline. Tape recorders could also send audio memos to the information hopper. Two items of information created at the same time will be found at the same place on the timeline. The system knows whom the user was with when he created the data, and the various timelines of the users working together. This way another timeline can be created to keep track of particular projects.
+\\\hspace*{0.5in}Another application that will come out of this ultrasonic location system is the smart poster. A conventional computer interface requires us to click on a button on our computer screen. In this new system, a button can be placed anywhere in your workplace, not just on the computer display. The idea behind smart posters is that A smart poster will have buttons printed on to it that can be triggered by a bat. Smart posters will be used to control any device that is plugged into the network. The poster will know where to send a file and a user's preferences. Smart posters could also be used in advertising new services. To press a button on a smart poster, a user will simply place his or her bat on the smart poster button and click the bat. The system automatically knows who is pressing the poster's button. Posters can be created with several buttons on it. Ultrasonic location systems will require us to think outside of the box. Traditionally, we have used our one computer at work to store all of our files, and we may back up these files on a network server. This new ubiquitous network will enable all computers in a building to transfer ownership and store all of our files in a central timeline.
+
+
+\chapter{Multi-Modal Broadband Networks}
+\section{Broadband}
+\subsection{Aims and Views :}\\
+\hspace*{0.5in}Although the ubiquitous network concept should not be discussed only in terms of bandwidth, the nature of broadband networks is nevertheless the starting point of discussion. The telecommunication infrastructure intended for final users inn 2005 will undoubtedly involve a wider bandwidth than that currently available. But there are arguments over what specific Mbps level will or should be achieved. There is a wide variety of views, ranging from one that says speed will not go above the same64Kbps used in today's ISDN even in 2005,to one that evisions 30-100Mbps as called for in the e-Japan strategy. Much remains unclear, such as whether the bandwidth is one that will be usable at the household or single building level, or whether the figure represents the high-end capability that ordinary households can use only by paying exorbitant prices.\\
+\subsection{Goals :}\\
+\hspace*{0.5in}For this ubiquitous network concept for 2005,bandwidth goals should be set from user's side.\\
+\begin{enumerate}
+\item We should make individuals the user unit. While the Internet has brought many innovations to the environment for information use, the largest single change has been that individuals with desktop PCs or mobile PCs have become the unit for receiving or sending information. Before the Internet brought this change, computer terminals had been installed at the organization or the facility level. Our way of using computers involved one computer per department or division, or perhaps 10 terminals per building. The internet or intranets have changed this, so today a ten-person organization probably has come to mean a ten-PC network. Similarly, in the future a four-person family will come to mean a unit of four individuals, each with a ubiquitous terminal. This means the capacity when everyone in the groups uses the terminals simultaneously should be discussed.
+\item  On the point of constant access or on-demand access, constant access is indispensable for basic daily communications. Because of high telephone charges, users have been accessing only at late night in a poorly connected environment and are worried about their monthly telephone bills. These experiences may influence the future use of the network, especially while developing ubiquitous networks.
+\item While the greater the better would seem obvious in terms of bandwidth, this should also be determined by taking into consideration the cost and speed of diffusion. Quality will vary even if the bandwidth can handle music and animation without difficulty. Bandwidths from several dozen Mbps to several hundred Mbps per person will be required to enable users to download television broadcasting content and movies from the network instantaneously with absolutely no trouble so that they can view the files immediately. As the goal for the concept of ubiquitous networks envisioned for 2005,a recommending benchmark is of 6Mbps per person. At 6 Mbps, users will be able to enjoy motion picture content with the quality of current television broadcasts or MPEG2-level content by using streaming type software. But this is strictly 6Mbps per person. To enable a family of four to simultaneously use the network without quality deterioration even when the father is enjoying an information-rich, interactive-type professional cricket network broadcast, the mother is using an online educational gardening program, the daughter is chatting on the videophone and the son is playing network game, a total bandwidth of 24 Mbps or more per household would be required. Moreover, a family unit watching motion pictures will require as much as 20 to 30 Mbps to handle HDTV quality data. It is probably unrealistic to expect an environment in which four people can simultaneously enjoy high-definition television by the year 2005. With a bandwidth of 50 Mbps, users can download a 70-minute long CD with MP3-class music quality in about 10 seconds. At this speed it is possible to download two-hour DVD movie in approximately 11 minutes. At 50 Mbps, users can independently and comfortably handle images and music through the network, whether the information adopts a streaming type or accumulation type format.
+\item Views are divided with regard to whether the cost to users must be Yen2000 or less per month, or whether a fee up to about Yen10, 000 is acceptable. In the ubiquitous network environment this is a fee per person, so the cost of Yen2000 per month will come to Yen8000 for per family of four. Moreover, when we add charges related to each telecommunication system, broadcasting system, cable system, and wireless system, the expenses quickly amount to a considerable sum.\\
+\end{enumerate}\\
+
+\section{Multi-modal}
+\subsection{What is it?}\\
+\hspace*{0.5in}Ubiquitous networks should be broadband, and at the same time, multi-modal. The goal should be to make it possible to receive information at 6 Mbps not only over cable and fixed-point networks but also with portable terminals that permit mobile telecommunication via wireless systems that work even from automobiles. Moreover, even when completely interactive capabilities are impossible because of differences in the levels of information handled, we should design ubiquitous networks so that users can exchange information in various ways routinely by using storage media or devices that degrade information, whether it arrives via surface waves or satellite broadcasts. In other words, ubiquitous networks are multi-modal networks that can switch between fixed point and mobile locations, cable and wireless, and telecommunication and broadcast network modes without undue difficulty.
+\subsection{Protocol for Multi-modal}\\
+\hspace*{0.5in}The IP protocol for this multi-modal network should naturally be Ipv6.As an IP address is required for each information appliance or automobile in ubiquitous-network configuration, we cannot rely upon Ipv4, which is expected to face a shortage of addresses in a foreseeable future even for the networks currently in place. Users can also take advantage of services using ADSL with the powerful broadband services now in place. ADSL is a technology that makes it possible to use existing telephone circuits to offer broadband services on one line at a maximum of 640 kbps for the uplink an about 9Mbps for the downlink. \\\hspace*{0.5in}Satellite Internet has begun high speed Internet services for consumers. But the increase in the needs for constant access has led to financial problems for operators and efforts by providing to specialize in business uses. In wireless systems, NTT DoCoMo's I-mode has started a cellular telephone Internet boom. The start of third generation IMT-2000 mobile telecommunications service in 2001 is about to give this service another large boost. NTT DoCoMo will initially begin IMT-2000 with 384Kbps service. This would become an ideal ubiquitous network and terminal if NTT DoCoMo upgrades the service in the future to the Mbps level at a moderate price.
+\\\hspace*{0.5in}Another development is Bluetooth technology, which can connect all devices within ten-meter radius at speeds up to maximum of 1Mbps.It could greatly expand PDA and Cellular telephone capabilities. Companies are also proceeding with research and development on other possible candidates for broadband networks. These include FWA (Fixed Wireless Access) networks or the wireless LAN type access systems. An other alternative is electric power distribution networks that directly use electric power lines instead of telephone or cable lines to form a network that connects information appliances. Of these, however, the most likely candidate for broadband service for household ubiquitous network is an optical fiber FTTH (fiber-to-the-home) network. The potential for FTTH, which appeared to have been forgotten for a period, continues to increase. While FTTH has various problems, including its high cost structure and immense time and costs required for the construction and placement of terminals, it undoubtedly holds the key to realizing ubiquitous networks.
+
+
+\chapter{Total Mobility}
+
+\section{Information devices with borderless connectivity}
+\hspace*{0.5in}In ubiquitous network, consumers will possess an environment connected to the Internet whatever they are. This means users will require information devices connected to the Internet in whatever circumstances they find themselves. The most basic information devices will probably still be desktop PCs, mobile PCs and PDAs. These tools provide the input devices, processing units, memory, display and other output components to utilize the Internet, and this situation is unlikely to change. It is also certain that mobile telephones are taking on a new role as a terminal for Internet use.
+\\\hspace*{0.5in}As described earlier, as bluetooth's technology spreads, users will begin to directly connect information appliances with cellular telephones. Even without a cellular phone, they will be able to connect information appliances into a domestic wireless LAN system as well as to link them with PCs via connectors which use the IEEE 1394 standard that can simultaneously transmit voice and images at a super high speed of 100Mbps or more. By connecting an MP3 player to the Internet for music or personal video recorder for images, users will be able to use program guide services and automatically record music and images. Propelled by the diffusion of network games and downloading need of game software, it is hoped that the technology to connect video game consoles to the Internet will be developed and spread quickly. This includes not only stationary consoles, but also mobile game consoles linked to the Internet via mobile phones. Providers and users may connect digital broadcasts from broadcasting systems to the Internet through television set-top boxes for electronic commerce users called T business.
+\\\hspace*{0.5in}Moreover, by also connecting the multimedia kiosk and POS terminals in convenience stores, gasoline stations, train stations and other location to the Internet to create click-and-mortar outlets, companies will change the distribution industry itself. Not only will we increase the connection of people to the Internet, we will also deepen the connection between automobile and Internet. It is still uncertain whether such information devices will evolve into location-specific devices, such as "office formats" for the office, "living room format" for the living room and "car formats" for the car, or whether they will evolve so that the function of different information and telecommunication devices will be unbundled and re-bundled. What is certain is that they will take a format that enables us to be unaware of the borders between our various environments.\\
+
+\section{Seamless Portable Content}
+\hspace*{0.5in}With ubiquitous networks, users will be able to move rich contents, such as voice or motion picture information, seamlessly between various network modes and information devices. This will not be a complete environment that will enable perfect real-time, one-source, multi-use access, but it will be possible to create a condition that is near enough to this goal. We must develop ubiquitous networks that enable users to seamlessly use large quantities of electronic commerce content on the web via information appliances, video games, or even on-board LANs for automobiles. Such networks will overcome many obstacles and limitations that consumers presently face in the existing EC or e-business systems. Ubiquitous networks will lead entirely new type of electronic commerce in which consumers can enjoy more freedom and comfort that could be called ubiquitous business or "u-business" instead of e-business. While web-based product catalogs for e-business contain color photographs, u-business product catalog are likely to be centered on motion of products and services will become far effective than at present.
+\\\hspace*{0.5in}It is likely that with ubiquitous networks we will change our concept of website homepage as well. We will transfer them from homepage to some form of "home video clips," starting with motion picture commercials or videos, which are short and can directly appeal to our senses. We will also change our concept of information searches. New search engines that seek voice, picture or images will also be required. As we develop new forms of content, one large problem will be what to do with the still photographic content aimed at e-business that has accumulated on the web. The emergence of u-business with its focus on video clips and motion picture content may well shorten the shelf life of the voluminous still-image contents in the e-business market. The current premise for TV-related digital broadcast content is to use the content only once. Providers will quickly have to change so that they can use content repeatedly. Under an environment that can handle motion picture content without difficulty, such resources will become valuable source of content for ubiquitous network communication system. But if this happen without a proper copyright management system, content providers and creators will face a nightmarish situation. Therefore it is necessary to establish a system for intellectual property rights that allows for seamless portability in the use of the content of the Internet created by ubiquitous networks in the future, and this may become a system for using ubiquitous networks to obtain permissions to books. This may cover not only text material but also music contents. Moreover, one may create a business model wherein written or music content is offered for multiple uses, perhaps increasing the frequency of exposure by making the content free of charge and earning profits for advertising.
+\\\hspace*{0.5in}The linking of ubiquitous networks with bluetooth or RFID (Radio Frequency IDentification) technologies could radically change the structure of work at the outlets of the distribution or financial establishments. Retail outlets changed dynamatically with introduction of the supermarket system, and they may once again go through revolutionary changes with ubiquitous networks. If the technology to instantly read a group of RFIDs attached to merchandise and a system that links mobile terminals equipped with personal identification function with a payment settlement systems are developed, completely unmanned checkout counters are possibility. Although it is not yet clear to what extent this would reduce the costs of operating store, it is certain that the system would allow store employees to spend more time with customers to engage in more sophisticated interactions than day today. An environment with a multi-modal broadband network of ubiquitous networks, borderless connectivity of devices and seamless portability of content has the possibility of fundamentally altering the relationships among users, the creators of content, and the firms operating between users and creators. \\
+
+
+\chapter{Privacy Issues}
+\hspace*{0.5in}Privacy, already a thorny problem in distributed systems and mobile computing, is greatly complicated by ubiquitous computing. Mechanisms such as location tracking, smart spaces, and use of surrogates monitor user actions on an almost continuous basis. As a user becomes more dependent on a ubiquitous computing system, it becomes more knowledgeable about that user's movements, behavior patterns and habits. Exploiting this information is critical to successful proactivity and self-tuning. At the same time, unless use of this information is strictly controlled, it can be put to a variety of unsavory uses ranging from targeted spam to blackmail. Indeed, the potential for serious loss of privacy may deter knowledgeable users from using a pervasive computing system Greater reliance on infrastructure means that a user must trust that infrastructure to a considerable extent. Conversely, the infrastructure needs to be confident of the user's identity and authorization level before responding to his requests. It is a difficult challenge to establish this mutual trust in a manner that is minimally intrusive and thus preserves invisibility. Privacy and trust are likely to be enduring problems in pervasive computing. Many research questions follow. \\\hspace*{0.5in}For example: " How does one strike the right balance between seamless system behavior and the need to alert users to potential loss of privacy? What are the mechanisms, techniques and design principles relevant to this problem? How often should the system remind a user that his actions are being recorded? When and how can a user turn off monitoring in a smart space? "What are the authentication techniques best suited to ubiquitous computing? Are password-based challenge response protocols such as Kerberos [7] adequate or are more exotic techniques such as biometric authentication [8] necessary? What role, if any, can smart cards [9] play? " How does one express generic identities in access control? For example, how does one express security constraints such as ''Only the person currently using the projector in this room can set its lighting level?'' Or, ''Only employees of our partner companies can negotiate QoS[10] properties in this smart space?''
+
+
+\chapter{Applications}
+\begin{enumerate}
+\item The combination of ubiquitous networking, mobility and ubiquitous computing devices will provide new opportunities for e-commerce products and services.
+\item Ubiquitous networking will allow connectivity to corporate applications anywhere, anytime. Employees will be able to retrieve and send information easily from their cars, mobile devices, and homes as well as from their offices.
+\item The network can reach handhelds through a simple serial wire, infrared, or wireless digital radio and turn them into Internet clients and servers. With this capacity, a student can hold the entire cyberspace infosphere. There is no need to possess hard drives for on-board personal files, no need to squeeze in an encyclopedia or huge databases, no need to have computational muscle; these capacities can exist at a remote server. The handheld need only be large enough to run a browser (which, granted, will be large).
+\end{enumerate}\\
+
+
+\chapter{Apendix}
+\begin{enumerate}
+\item {\bf 3rd Generation-IMT 2000:} The target of this work is to develop methods to efficiently implement high quality multimedia 3G networks and to ensure that the IMT-2000 Radio Access Network features support these methods. This activity is carried out by a joint team consisting of experts from SK Telecom and Nokia and draws from the wide body of experience the parties have in 2G networks and the research in IMT-2000.
+\item {\bf Bluetooth:} Bluetooth is replacement for the mechanically vulnerable and inconvenient cable connections between communications products. In order to be as independent as possible of environmental and operating conditions, radio techniques were chosen in preference to the infrared transmission that was, at that time, already very popular. This made connections possible through cloth, leather and even walls, without line-of-sight contact. Bluetooth is a short distance radio link technology, enabling the wireless connection of mobile terminals such as notebooks, printers and mobile telephones so that they can exchange data with one another. This overcomes two of the greatest barriers that limit, at the present, the user friendliness of such equipment - the special cables, and the specific entries and settings that are required to establish communication
+\item {\bf Broadband (cable):} It is a cable wider than 4 KHz. In the computer networking world "Broadband cable" means any cable network using analog transmission. It can be used up to 450 MHz and can run nearly 100Km.
+\item {\bf Car Navigation Devices:} Car navigation devices are the most widely used form of information terminals for Intelligent Transportation Systems. These devices provide drivers with information on traffic conditions, tourist-site facilities, restaurant menus, and so on, as well as recommending routes to destinations. The developmental work which is required for the route-guidance techniques of these devices may be divided into two categories: the investigation of dynamic route-selection methods for finding the easiest-to-drive and quasi-shortest routes in real-time and the development of simulators for evaluating these methods in dynamic environments where congestion frequently occurs.
+\item {\bf CATV:} CATV (originally "community antenna television," now often "community access television") is more commonly known as "cable TV." In addition to bringing television programs to those millions of people throughout the world who are connected to a community antenna, cable TV is an increasingly popular way to interact with the World Wide Web and other new forms of multimedia information and entertainment services
+\item {\bf Interbody signaling:} Human body itself becomes a live communication network.
+\item {\bf IPv6:} Internet Protocol Version 6 is abbreviated to IPv6 . The previous version of the Internet Protocol is version 4 (referred to as IPv4). IPv6 is a new version of IP which is designed to be an evolutionary step from IPv4. It is a natural increment to IPv4. It can be installed as a normal software upgrade in Internet devices and is interoperable with the current IPv4. Its deployment strategy is designed to not have any flag days or other dependencies. IPv6 is designed to run well on high performance networks (e.g. Gigabit Ethernet, OC-12, ATM, etc.) and at the same time still be efficient for low bandwidth networks (e.g. wireless). In addition, it provides a platform for new Internet functionality that will be required in the near future. IPv6 includes a transition mechanism , which is designed to allow users to adopt and deploy IPv6 in a highly diffuse fashion and to provide direct interoperability between IPv4 and IPv6 hosts. The transition to a new version of the Internet Protocol must be incremental, with few or no critical interdependencies, if it is to succeed. The IPv6 transition allows the users to upgrade their hosts to IPv6, and the network operators to deploy IPv6 in routers, with very little coordination between the two.
+\item {\bf Multimedia Kiosk:} The Internet as the biggest Distributed Multimedia Information System on Earth provides a wealth of information "at your fingertip" from your desktop at your office or at home. However it is often desirable or even necessary to have access to information in the field, that is, at the location where the information is required (E-Commerce solutions like POS, client information systems, etc.) The adequate solution for this problem may often be a Multimedia Kiosk. CCG designed and developed a generic Kiosk platform that is easily adaptable to a wide range of specific requirements.
+\item {\bf PDA:} PDA is a remarkable, tiny, fully functional computer that you can hold in one hand. And unlike that paper organizer, a PDA can hold your downloaded e-mail and play music.
+\item {\bf POS terminals:}  If you are merchants and would like to offer your clients the convenience of making disbursements via debit and credit cards in your trade centers, EIBANK places at your disposal a POS terminal (Point of Sale/Service) completely free of charge, through which you could accept non-cash payments. Your staff will also be trained to work with a POS terminal free of charge. The POS terminal is installed next to the cash register and serves for accepting non-cash payments. The check of the bankcard is conducted by the POS' reading device in on-line mode. The sums paid are deducted from the cardholder's account and they enter into your checking account.
+\item {\bf Set Top Boxes:} A set-top box is a device that enables a television set to become a user interface to the Internet and also enables a television set to receive and decode digital television (DTV) broadcasts. DTV set-top boxes are sometimes called receivers. A set-top box is necessary to television viewers who wish to use their current analog television sets to receive digital broadcasts
+\item {\bf Smart Room:} Smart Rooms act like invisible butlers. They have cameras, microphones, and other sensors, and use these inputs to try to interpret what people are doing in order to help them.
+\item {\bf Wearable computers:} In the next few years, we might be filling our closets with smart shirts that can read our heart rate and breathing, and musical jackets with built in all-fabric keypads. Thin light-emitting diode (LED) monitors could even be integrated into this apparel to display text and images. Computerized clothes will be the next step in making computers and devices portable without having to strap electronics to our bodies or fill our pockets with a plethora of gadgets. These new digital clothes aren't necessarily designed to replace your PC, but they will be able to perform some of the same functions.
+\item {\bf xDSL:}  DSL is a technology for pushing a (relatively) large number of bits through wiring that is typical for "last mile" telephone connections i.e. small gage copper wire of lengths less than 18,000 feet. There are a number of different protocols that fall under the DSL umbrella: ADSL, RADSL, HDSL. xDSL is used to push high bit rates through copper wires that run from point A to point B. For most people, point A will be their home and point B will be the other end of the copper phone wire, that is the substation of the local phone company.
+\end{enumerate}\\
+
+
+\chapter{References}
+\begin{enumerate}\\
+\item Masayoshi Ohashi,KDDI R&D Laboratories, "Ubiquitous Networks"
+\item Andrew S. Tatenbaum, "Computer Networks"
+\item Phil Zimmermann, "An Introduction to Cryptography"
+\item Behrouz Forozan, "Data Communication and Networking"
+\end{enumerate}
+
+\end{document} 
